@@ -1,0 +1,36 @@
+.home-banner {
+  background-image: asset_url('home-banner.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 50%;
+  color: #eee;
+  text-align: center;
+  padding-top: 40vh;
+  margin-bottom: 40px;
+
+  h1{
+    font-size: 56px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40vh;
+    justify-content: center;
+  }
+}
+
+
+.list-banner {
+  h2 {
+    font-size: 29px;
+    font-weight: lighter;
+    display: block;
+    margin:0;
+    float: left;
+  }
+
+  .btn-create {
+    position: relative;
+    float: right;
+    vertical-align: top;
+  }
+}
